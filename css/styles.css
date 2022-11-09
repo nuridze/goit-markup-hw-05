@@ -266,13 +266,12 @@ p {
   text-transform: uppercase;
   color: #ffffff;
 }
-.ulka{
+.ulka {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
 }
 .we-work {
-  
   display: inline-flex;
   padding-left: 0px;
   gap: 30px;
