@@ -195,6 +195,9 @@ p {
   color: #ffffff;
   background: #2196f3;
 }
+.main-button:hover{
+  color: #fff;
+}
 
 .quality-catalog {
   margin-bottom: 118px;
@@ -247,12 +250,8 @@ p {
   position: absolute;
   top: 224px;
   box-sizing: border-box;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 27px;
   padding-bottom: 27px;
-  justify-content: center;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
@@ -266,7 +265,7 @@ p {
   text-transform: uppercase;
   color: #ffffff;
 }
-.ulka {
+.img-cart {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
