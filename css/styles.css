@@ -73,6 +73,26 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.studio::after{
+content: "";
+position: absolute;
+width: 48px;
+height: 4px;
+left: 451px;
+top: 76px;
+background: #2196F3;
+border-radius: 2px;
+}
+.header-start .portfolio::after{
+  content: "";
+  position: absolute;
+  width: 78px;
+  height: 4px;
+  left: 546px;
+  top: 76px;
+  background: #2196F3;
+  border-radius: 2px;}
+
 .navi-ap :not(:last-child) {
   margin-right: 50px;
 }
@@ -224,11 +244,12 @@ p {
 }
 
 .additions-servisis{
+  position: absolute;
  box-sizing: border-box;
   
   justify-content: center;
   background: rgba(47, 48, 58, 0.8);
-  width: 370px ;
+  width: 370px;
   height: 70px;
 
  font-family: 'Roboto';
@@ -244,7 +265,8 @@ p {
 }
 
 .we-work {
-  display: flex;
+  position: relative;
+  display: inline-flex;
   padding-left: 0px;
   /* justify-content: center; */
 }
