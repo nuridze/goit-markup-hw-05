@@ -25,7 +25,7 @@ p {
 }
 .link {
   text-decoration: none;
-  color:#AFB1B8;
+  color: #afb1b8;
 }
 .list {
   list-style: none;
@@ -73,25 +73,26 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.studio::after{
-content: "";
-position: absolute;
-width: 48px;
-height: 4px;
-left: 451px;
-top: 76px;
-background: #2196F3;
-border-radius: 2px;
+.studio::after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  left: 451px;
+  top: 76px;
+  background: #2196f3;
+  border-radius: 2px;
 }
-.header-start .portfolio::after{
+.header-start .portfolio::after {
   content: "";
   position: absolute;
   width: 78px;
   height: 4px;
   left: 546px;
   top: 76px;
-  background: #2196F3;
-  border-radius: 2px;}
+  background: #2196f3;
+  border-radius: 2px;
+}
 
 .navi-ap :not(:last-child) {
   margin-right: 50px;
@@ -242,37 +243,43 @@ border-radius: 2px;
   letter-spacing: 0.03em;
   color: #212121;
 }
-
-.additions-servisis{
+.additions-servisis {
   position: absolute;
- box-sizing: border-box;
-  
+  top: 224px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 27px;
+  padding-bottom: 27px;
   justify-content: center;
   background: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
-
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 700;
- font-size: 14px;
- line-height: 16px;
- text-align: center;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color: #FFFFFF;
- 
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-
-.we-work {
+.ulka{
+  box-sizing: border-box;
+  display: inline-block;
   position: relative;
+}
+.we-work {
+  
   display: inline-flex;
   padding-left: 0px;
-  /* justify-content: center; */
+  gap: 30px;
 }
-.we-work :not(:last-child) {
+/* .we-work :not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .team {
   background: #f5f4fa;
@@ -327,7 +334,6 @@ border-radius: 2px;
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
-  
 }
 .team-item {
   box-sizing: border-box;
@@ -346,9 +352,8 @@ border-radius: 2px;
 .team-item:hover,
 .team-item:focus {
   background: #2196f3;
-  
 }
-.team-item:hover svg{
+.team-item:hover svg {
   fill: #ffffff;
 }
 .networks {
@@ -462,18 +467,17 @@ border-radius: 2px;
 
 .icon-clients:hover,
 .icon-clients:focus {
-  border:solid  #2196f3;
-background-color:#ffffff;
-
+  border: solid #2196f3;
+  background-color: #ffffff;
 }
-.icon-clients:hover svg{
+.icon-clients:hover svg {
   fill: #2196f3;
 }
 .clients-link {
   display: block;
   width: 106px;
   height: 60px;
-  fill:currentColor;
+  fill: currentColor;
 }
 
 /* ФУТЕР */
@@ -547,8 +551,6 @@ footer {
   border-radius: 50%;
   margin-right: 10px;
   background: rgba(255, 255, 255, 0.1);
- 
-  
 }
 .join-link {
   display: flex;
